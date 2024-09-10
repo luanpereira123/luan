@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+h1{
+    color: red;
+}
+body{
+    background-color: hsl(222, 85%, 52%);
+    font-family: Arial, Helvetica, sans-serif ;
+    
+
+}
+#container{
+    font-size: 2em;
+
+}
+p{
+    font-size: 2rem;
+    color: aquamarine;
+    border-left:2px solid green;
+    border-bottom: 4px dotted red; /*dashed tracejado e dotted pontilhado*/
+    border-top: 4px dashed orange;
+    border-right: 2px solid blue;
+    
+    
+}
+
+/* - `margin`: margem da caixa para a laterais;
+- `border`: borda da caixa;
+- `padding`: preenchimento, deslocamento do conteúdo interno;
+- `width`: largura;
+- `height`: altura
+
+    esses elementos cracterizam um box model
+*/
+h2{
+    margin:0px auto;
+    width:50%;
+    background-color: hsl(60, 100%, 50%);
+    /* text-align: center; */
+    padding-left: 20px;
+
+    
+
+}
+/* .box1 { 
+    box-sizing: content-box;  
+    width: 300px;
+    height: 100px;
+    padding: 30px;  
+    border: 10px solid blue;
+  }
+  
+  .box2 {
+    box-sizing: border-box;  
+    width: 380px;
+    height: 100px;
+    padding: 30px;  
+    border: 10px solid red;
+  }*/
